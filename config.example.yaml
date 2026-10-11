@@ -1,0 +1,14 @@
+keywords:
+  - Example service
+regions:
+  - slug: city-slug/predlozheniya_uslug
+    name: Example city
+max_pages_per_query: 1
+browser:
+  headless: false
+  user_data_dir: data/browser_profile
+database:
+  path: data/state.db
+output:
+  excel_path: data/profiles.xlsx
+  csv_path: data/profiles.csv
